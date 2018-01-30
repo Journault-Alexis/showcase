@@ -123,17 +123,17 @@ li {
   padding-left: 8vw;
   padding-right: 8vw; }
 
-  @media (orientation: portrait) and (max-width : 700px) {
-   .nav {
+ @media (orientation: portrait) and (max-device-width : 900px) {
+    .nav {
     position: absolute;
-    height: 65px;
+    height: 85px;
     font: normal 0.8rem "Montserrat", sans-serif; }
 
   .logo {
     left: 2vh; }
 
   #spirale {
-    width: 50px;
+    width: 70px;
     top: 0.15px; }
 
   .container {
@@ -141,10 +141,10 @@ li {
     padding-bottom: 15vh; }
 
   .white .title {
-    padding-top: 90px; }
+    padding-top: 50px; }
 
   .illu {
-    width: 100vw; }
+    width: 100%; }
 
   .title {
     font: normal 1rem "Montserrat", serif; }
