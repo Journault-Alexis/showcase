@@ -123,8 +123,7 @@ li {
   padding-left: 8vw;
   padding-right: 8vw; }
 
-  @media screen and (orientation: portrait) and (max-device-width: 800px) {
- 
+@media (min-width: 320px) and (max-width: 480px) { 
    .nav {
     position: absolute;
     height: 65px;
