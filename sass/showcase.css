@@ -123,8 +123,8 @@ li {
   padding-left: 8vw;
   padding-right: 8vw; }
 
-@media screen and (max-width: 900px) {
-  .nav {
+@media (orientation: portrait) and (max-device-width : 900px) { {
+   .nav {
     position: absolute;
     height: 65px;
     font: normal 0.8rem "Montserrat", sans-serif; }
