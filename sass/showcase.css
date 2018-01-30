@@ -123,37 +123,47 @@ li {
   padding-left: 8vw;
   padding-right: 8vw; }
 
- @media (orientation: portrait) and (max-device-width : 900px) {
-    .nav {
-    position: absolute;
-    height: 100px;
-    font: normal 0.7rem "Montserrat", sans-serif; }
+  @media (orientation: portrait) and (max-device-width : 900px) {
+     .nav {
+     position: absolute;
+     height: 150px;
+     font: normal 0.7rem "Montserrat", sans-serif; }
+     .button {
+       font: normal 1rem "Montserrat", sans-serif;
 
-  .logo {
-    left: 2vh; }
+     }
+   .logo {
+     left: 2vh; }
 
-  #spirale {
-    width: 70px;
-    top: 0.15px; }
+   #spirale {
+     width: 80px;
+     top: 20px; }
 
-  .container {
-    padding-top: 15vh;
-    padding-bottom: 15vh; }
+   .container {
+     padding-top: 15vh;
+     padding-bottom: 15vh; }
 
-  .white .title {
-    padding-top: 50px; }
+   .white .title {
+     padding-top: 50px; }
 
-  .illu {
-    width: 100%;
-    padding-left: 300px; }
+   .illu {
+     width: 100%;
+     padding-left: 300px; }
 
-  .title {
-    font: normal 1.5rem "Montserrat", serif; }
+   .title {
+     font: normal 1.5rem "Montserrat", serif; }
 
-  .description {
-    font: normal 1rem "Montserrat", serif; }
+   .description {
+     font: normal 1.3rem "Montserrat", serif; }
 
-  ul {
-    display: inline-grid; } }
+   ul {
+     display: inline-grid; }
 
-/*# sourceMappingURL=showcase.css.map */
+   footer{
+
+       font: normal 2rem "Montserrat", sans-serif;
+       padding: 10px;
+   }
+
+
+ /*# sourceMappingURL=showcase.css.map */
