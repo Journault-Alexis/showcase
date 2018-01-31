@@ -100,8 +100,8 @@
 footer {
   background: rgba(151, 209, 206, 0.9);
   display: flex;
-  height: 245px;
-  padding-bottom: 5vh;
+  height: 150px;
+  padding-bottom: 9vh;
   font: normal 1rem "Montserrat", sans-serif;
   color: #4F4F4F; }
 
@@ -123,47 +123,55 @@ li {
   padding-left: 8vw;
   padding-right: 8vw; }
 
-  @media (orientation: portrait) and (max-device-width : 900px) {
-     .nav {
-     position: absolute;
-     height: 150px;
-     font: normal 0.7rem "Montserrat", sans-serif; }
+
+  @media (orientation: landscape) and (min-device-width : 2000px) {
      .button {
-       font: normal 1rem "Montserrat", sans-serif;
+       padding: 20px;}
+
+ }
+ @media (orientation: landscape) and (max-device-width : 1124px) {
+          .illu {
+      width: 50%;
+      padding-left: 200px; }
+
+ }
+  @media (orientation: portrait) and (max-device-width : 900px) {
+       .nav {
+       position: absolute;
+       height: 150px;
+       font: normal 0.7rem "Montserrat", sans-serif; }
+       .button {
+         font: normal 1rem "Montserrat", sans-serif;
+
+       }
+     .logo {
+       left: 2vh; }
+
+     #spirale {
+       width: 80px;
+       top: 20px; }
+
+     .container {
+       padding-top: 15vh;
+       padding-bottom: 15vh; }
+
+     .white .title {
+       padding-top: 50px; }
+
+     .illu {
+       width: 100%;
+       padding-left: 300px; }
+
+     .title {
+       font: normal 1.5rem "Montserrat", serif; }
+
+     .description {
+       font: normal 1.3rem "Montserrat", serif; }
+
+     footer{
+
+         font: normal 1.5rem "Montserrat", sans-serif;
+         text-align: center;
 
      }
-   .logo {
-     left: 2vh; }
-
-   #spirale {
-     width: 80px;
-     top: 20px; }
-
-   .container {
-     padding-top: 15vh;
-     padding-bottom: 15vh; }
-
-   .white .title {
-     padding-top: 50px; }
-
-   .illu {
-     width: 100%;
-     padding-left: 300px; }
-
-   .title {
-     font: normal 1.5rem "Montserrat", serif; }
-
-   .description {
-     font: normal 1.3rem "Montserrat", serif; }
-
-   ul {
-     display: inline-grid; }
-
-   footer{
-
-       font: normal 2rem "Montserrat", sans-serif;
-       padding: 5px;
-   }
-
-
- /*# sourceMappingURL=showcase.css.map */
+    }
